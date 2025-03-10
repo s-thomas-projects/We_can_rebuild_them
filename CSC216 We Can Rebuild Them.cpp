@@ -212,6 +212,10 @@ class AVLTree{
             visited = visited + to_string(p->value) + ',';
             inorder(p->right, visited);
         }
+        else
+        {
+            visited = visited + "nil" + ',';
+        }
     }
 
     string sterilize()
