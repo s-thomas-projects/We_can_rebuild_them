@@ -216,6 +216,7 @@ class AVLTree{
         {
             visited = visited + "nil" + ',';
         }
+        return;
     }
 
     string sterilize()
